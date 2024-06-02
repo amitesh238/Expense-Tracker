@@ -1,0 +1,23 @@
+.chart-view {
+    height: 31rem;
+    border: 2px solid #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-chart {
+    flex: 2;
+}
+
+.pie-chart {
+    flex: 1;
+}
+
+@media(max-width:700px) {
+    .chart-view {
+        height: fit-content;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
